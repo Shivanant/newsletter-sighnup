@@ -64,7 +64,7 @@ app.post('/',function(req,res){
 
 
 
-app.listen(process.env.POST ||3000,function(){
+app.listen(process.env.POST,function(){
     console.log("server online at port 3000");
 });
 
